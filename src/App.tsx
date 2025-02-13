@@ -14,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexPage />} />
           <Route path="*" element={<NotFoundPage />} />
-          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>
     </div>
